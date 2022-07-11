@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+
+
+.hero{
+    display: flex;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4.5em;
+    box-sizing: border-box;
+}
+
+header img{
+    width: auto;
+    height: 100%;
+    margin-left: 3em;
+}
+
+.links{
+    color: #DFE6E9;
+    font-size: 1em;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3em;
+    font-family: monospace;
+    margin-right: 3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 1.6em;
+}
+
+a:visited{
+    color: #DFE6E9;
+}
+
+.body{
+    background-color: #2D3436;
+    display: flex;
+
+}
+
+.about{
+    display: flex;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 5%;
+
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0 30px;
+}
+
+.about p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 30px;
+}
+
+.banner{
+    width: 35%;
+    height: auto;
+    margin: 5%;
+    border-radius: 3%;
+}
+
+.roster{
+    background-color: #DFE6E9;
+}
+
+.botton{
+    background-color: #636E72;
+}
+
+.quote{
+    background-color: #B2BEC3;
+}
+
