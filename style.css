@@ -51,6 +51,7 @@ a:visited{
 .body{
     background-color: #2D3436;
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -88,15 +89,39 @@ article{
     border-radius: 3%;
 }
 
-.roster{
+.roster-div{
     background-color: #DFE6E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.botton{
-    background-color: #636E72;
+.roster{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
 }
+
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+}
+
+.player img{
+    width: 200px;
+    height: 200px;
+    margin: 0.5em 3em;
+    border-radius: 2em;
+}
+
 
 .quote{
     background-color: #B2BEC3;
 }
 
+.botton{
+    background-color: #636E72;
+}
