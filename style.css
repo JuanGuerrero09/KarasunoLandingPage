@@ -24,7 +24,7 @@ header img{
 }
 
 .links{
-    color: #DFE6E9;
+    color: #f3f0ee;
     font-size: 1em;
     width: 30%;
     height: 100%;
@@ -40,7 +40,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+.links a:hover{
     font-size: 1.6em;
 }
 
@@ -49,7 +49,7 @@ a:visited{
 }
 
 .body{
-    background-color: #2D3436;
+    background-color: #3c3f4c;
     display: flex;
     flex-direction: column;
 
@@ -72,13 +72,13 @@ article{
 .title{
     font-size: 48px;
     font-weight: bold;
-    color: #F9FAF8;
+    color: #f3f0ee;
     margin: 0 30px;
 }
 
 .about p{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #f3f0ee;
     margin: 10px 30px;
 }
 
@@ -89,18 +89,24 @@ article{
     border-radius: 3%;
 }
 
-.roster-div{
-    background-color: #DFE6E9;
+.roster-div, .openings{
+    background-color: #f49030;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: monospace;
+    color: #35364a;
+}
+
+.roster-title{
+    font-size: 3em;
 }
 
 .roster{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 70%;
 }
 
 .player{
@@ -108,20 +114,97 @@ article{
     flex-direction: column;
     align-items: center;
     height: 60%;
+    font-size: 1em;
+}
+
+.player-position{
+    font-size: 1.5em;
 }
 
 .player img{
     width: 200px;
     height: 200px;
-    margin: 0.5em 3em;
+    margin: 0.11em 2.7em 0.1em;
     border-radius: 2em;
 }
 
-
-.quote{
-    background-color: #B2BEC3;
+.player-description{
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
-.botton{
-    background-color: #636E72;
+.quote{
+    background-color: #ef863d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text-quote{
+    font-size: 100px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #35364a;
+
+}
+
+.autor-quote{
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: right;
+}
+
+.card{
+    background-color: #35364a;
+    width: 70%;
+    height: 250px;
+    display: flex;
+    margin: 5em 3em;
+    border-radius: 30px;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-card{
+    color: #DFE6E9;
+    font-size: 20px;
+}
+
+.button-container{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+button{
+    border: #DFE6E9;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #DFE6E9;
+    background-color: #f49030;
+    font-size: 24px;
+}
+
+button a:visited{
+    color: wheat;
+}
+
+.footer{
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: monospace;
+    color: #DFE6E9;
 }
